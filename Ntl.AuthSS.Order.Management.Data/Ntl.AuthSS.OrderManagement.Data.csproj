@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="CorePush" Version="3.0.1" />
+	  <PackageReference Include="Ntl-AuthSS-Utilities" Version="1.9.5" />
+	  <PackageReference Include="Ntl.Tss.Identity.Data" Version="1.1.0" />
+	  <Compile Remove="Entities\InspectedStamp.cs" />
+    <Compile Remove="Entities\Inspection.cs" />
+    <Compile Remove="Entities\InspectionBatch.cs" />
+    <Compile Remove="Migrations\20200831191700_InitialDb.cs" />
+    <Compile Remove="Migrations\20200831191700_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\20200905184725_OrderTotals.cs" />
+    <Compile Remove="Migrations\20200905184725_OrderTotals.Designer.cs" />
+    <Compile Remove="Migrations\20200907192122_Initial_Db.cs" />
+    <Compile Remove="Migrations\20200907192122_Initial_Db.Designer.cs" />
+    <Compile Remove="Migrations\20200910135132_InitialDb.cs" />
+    <Compile Remove="Migrations\20200910135132_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\20200910190852_ReelsCartons.cs" />
+    <Compile Remove="Migrations\20200910190852_ReelsCartons.Designer.cs" />
+    <Compile Remove="Migrations\20200927144951_trackingandshipper.cs" />
+    <Compile Remove="Migrations\20200927144951_trackingandshipper.Designer.cs" />
+    <Compile Remove="Migrations\20201001114752_OrderApprovalRemoval.cs" />
+    <Compile Remove="Migrations\20201001114752_OrderApprovalRemoval.Designer.cs" />
+    <Compile Remove="Migrations\20201020142922_OrgWallet.cs" />
+    <Compile Remove="Migrations\20201020142922_OrgWallet.Designer.cs" />
+    <Compile Remove="Migrations\20201003065123_AddedCommentsReturnNumber.cs" />
+    <Compile Remove="Migrations\20201003065123_AddedCommentsReturnNumber.Designer.cs" />
+
+    <PackageReference Include="EPPlus" Version="7.3.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NetTopologySuite.Core" Version="1.15.3" />
+   
+    <Compile Remove="Entities\InspectedStamp.cs" />
+    <Compile Remove="Entities\Inspection.cs" />
+    <Compile Remove="Entities\InspectionBatch.cs" />
+    <Compile Remove="Migrations\20200831191700_InitialDb.cs" />
+    <Compile Remove="Migrations\20200831191700_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\20200905184725_OrderTotals.cs" />
+    <Compile Remove="Migrations\20200905184725_OrderTotals.Designer.cs" />
+    <Compile Remove="Migrations\20200907192122_Initial_Db.cs" />
+    <Compile Remove="Migrations\20200907192122_Initial_Db.Designer.cs" />
+    <Compile Remove="Migrations\20200910135132_InitialDb.cs" />
+    <Compile Remove="Migrations\20200910135132_InitialDb.Designer.cs" />
+    <Compile Remove="Migrations\20200910190852_ReelsCartons.cs" />
+    <Compile Remove="Migrations\20200910190852_ReelsCartons.Designer.cs" />
+    <Compile Remove="Migrations\20200927144951_trackingandshipper.cs" />
+    <Compile Remove="Migrations\20200927144951_trackingandshipper.Designer.cs" />
+    <Compile Remove="Migrations\20201001114752_OrderApprovalRemoval.cs" />
+    <Compile Remove="Migrations\20201001114752_OrderApprovalRemoval.Designer.cs" />
+    <Compile Remove="Migrations\20201020142922_OrgWallet.cs" />
+    <Compile Remove="Migrations\20201020142922_OrgWallet.Designer.cs" />
+    <Compile Remove="Migrations\20201003065123_AddedCommentsReturnNumber.cs" />
+    <Compile Remove="Migrations\20201003065123_AddedCommentsReturnNumber.Designer.cs" />
+
+	<PackageReference Include="CorePush" Version="3.1.1" />
+    <PackageReference Include="EPPlus" Version="7.3.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
